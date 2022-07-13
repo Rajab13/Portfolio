@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+  background-color: rgb(235, 255, 225);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Merienda', cursive;
+  padding-top: 270px;
+}
+
+.nav > div {
+  padding: 15px;
+  font-size: 41px;
+}
+
+.header{
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    background-color: rgb(235, 255, 225);
+}
+
+.table {
+  display: table;
+}
+
+.table > div {
+  display: table-row;
+}
+
+.table > div > div {
+    display: table-cell;
+}
+
+.cars {
+    width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+.description {
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
+}
