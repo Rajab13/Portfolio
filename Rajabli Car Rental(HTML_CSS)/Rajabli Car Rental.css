@@ -2,10 +2,10 @@
 
 body {
   background-color: rgb(235, 255, 225);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
-  font-family: 'Merienda', cursive;
-  padding-top: 270px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 260px;
 }
 
 .nav > div {
@@ -34,6 +34,7 @@ body {
 
 .cars {
     width: 100%;
+    font-size: inherit;
 }
 
 .logo {
@@ -55,5 +56,20 @@ a:active {
 
 .description {
   font-size: 20px;
-  font-family: 'Merienda', cursive;
+}
+
+.company-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.description {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.aboutus {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
 }
